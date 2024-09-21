@@ -1,0 +1,32 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/lwtnn/2.13-0aa0beceb8b5ad713f08f669c678c75e/include"
+  ],
+  "LIB": [
+    "lwtnn"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/lwtnn/2.13-0aa0beceb8b5ad713f08f669c678c75e/lib"
+  ],
+  "LWTNN_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/lwtnn/2.13-0aa0beceb8b5ad713f08f669c678c75e",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/lwtnn/2.13-0aa0beceb8b5ad713f08f669c678c75e/bin"
+    ],
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/lwtnn/2.13-0aa0beceb8b5ad713f08f669c678c75e/include"
+    ]
+  },
+  "TOOLNAME": "lwtnn",
+  "TOOLVERSION": "2.13-0aa0beceb8b5ad713f08f669c678c75e",
+  "USE": [
+    "root_cxxdefaults",
+    "eigen",
+    "boost_system"
+  ],
+  "VARIABLES": [
+    "LWTNN_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

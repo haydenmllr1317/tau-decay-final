@@ -1,0 +1,9 @@
+<tool name="alpaka-cuda" version="develop-20220902-e80d13b043e1608b43d2007d06ad7e2f">
+  <use name="alpaka"/>
+  <use name="cuda"/>
+  <!-- host comiplation should run with ALPAKA_HOST_ONLY defined -->
+  <flags CXXFLAGS="-DALPAKA_ACC_GPU_CUDA_ENABLED -DALPAKA_HOST_ONLY"/>
+  <flags GENREFLEX_CPPFLAGS="-DALPAKA_ACC_GPU_CUDA_ENABLED -DALPAKA_HOST_ONLY"/>
+  <!-- device comiplation should run without ALPAKA_HOST_ONLY defined -->
+  <flags CUDA_FLAGS="-DALPAKA_ACC_GPU_CUDA_ENABLED -UALPAKA_HOST_ONLY"/>
+</tool>

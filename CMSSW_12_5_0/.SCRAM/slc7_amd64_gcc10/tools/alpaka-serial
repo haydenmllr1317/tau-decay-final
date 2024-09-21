@@ -1,0 +1,15 @@
+{
+  "FLAGS": {
+    "CXXFLAGS": [
+      "-DALPAKA_ACC_CPU_B_SEQ_T_SEQ_ENABLED"
+    ],
+    "GENREFLEX_CPPFLAGS": [
+      "-DALPAKA_ACC_CPU_B_SEQ_T_SEQ_ENABLED"
+    ]
+  },
+  "TOOLNAME": "alpaka-serial",
+  "TOOLVERSION": "develop-20220902-e80d13b043e1608b43d2007d06ad7e2f",
+  "USE": [
+    "alpaka"
+  ]
+}

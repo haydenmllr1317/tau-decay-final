@@ -1,0 +1,41 @@
+{
+  "BINDIR": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/bin"
+  ],
+  "HERWIGPP_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/include"
+  ],
+  "LIB": [
+    "HerwigAPI"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/lib/Herwig"
+  ],
+  "RUNTIME": {
+    "HERWIGPATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/share/Herwig"
+    ],
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/bin"
+    ],
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/herwig7/7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8/include"
+    ]
+  },
+  "TOOLNAME": "herwig7",
+  "TOOLVERSION": "7.2.2-dc66f5ab14f2b7ead04d527d06efb3a8",
+  "USE": [
+    "root_cxxdefaults",
+    "lhapdf",
+    "thepeg",
+    "madgraph5amcatnlo",
+    "openloops"
+  ],
+  "VARIABLES": [
+    "HERWIGPP_BASE",
+    "LIBDIR",
+    "INCLUDE",
+    "BINDIR"
+  ]
+}

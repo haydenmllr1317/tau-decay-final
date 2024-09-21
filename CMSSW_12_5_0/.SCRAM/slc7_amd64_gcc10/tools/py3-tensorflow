@@ -1,0 +1,13 @@
+{
+  "PY3_TENSORFLOW_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-tensorflow/2.6.4-e9c7f82b872559bd8731eb6f253ba8dc",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-tensorflow/2.6.4-e9c7f82b872559bd8731eb6f253ba8dc/bin"
+    ]
+  },
+  "TOOLNAME": "py3-tensorflow",
+  "TOOLVERSION": "2.6.4-e9c7f82b872559bd8731eb6f253ba8dc",
+  "VARIABLES": [
+    "PY3_TENSORFLOW_BASE"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "PY3_CACHECONTROL_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-cachecontrol/0.12.6-1a23469417f1047791125878238ed2c6",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-cachecontrol/0.12.6-1a23469417f1047791125878238ed2c6/bin"
+    ]
+  },
+  "TOOLNAME": "py3-cachecontrol",
+  "TOOLVERSION": "0.12.6-1a23469417f1047791125878238ed2c6",
+  "VARIABLES": [
+    "PY3_CACHECONTROL_BASE"
+  ]
+}

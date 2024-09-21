@@ -1,0 +1,13 @@
+{
+  "PY3_NUMPY_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-numpy/1.22.4-fed14fba556da687b0d60c63c90ca3bc",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-numpy/1.22.4-fed14fba556da687b0d60c63c90ca3bc/bin"
+    ]
+  },
+  "TOOLNAME": "py3-numpy",
+  "TOOLVERSION": "1.22.4-fed14fba556da687b0d60c63c90ca3bc",
+  "VARIABLES": [
+    "PY3_NUMPY_BASE"
+  ]
+}

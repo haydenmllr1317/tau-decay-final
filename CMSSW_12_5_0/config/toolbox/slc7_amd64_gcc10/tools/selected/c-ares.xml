@@ -1,0 +1,10 @@
+<tool name="c-ares" version="1.15.0-265850121fd84019601aa78930b152e4">
+  <info url="https://c-ares.org/"/>
+  <lib name="cares"/>
+  <client>
+    <environment name="C_ARES_BASE" default="/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/c-ares/1.15.0-265850121fd84019601aa78930b152e4"/>
+    <environment name="LIBDIR" default="$C_ARES_BASE/lib"/>
+    <environment name="INCLUDE" default="$C_ARES_BASE/include"/>
+  </client>
+</tool>
+

@@ -1,0 +1,19 @@
+{
+  "BOOST_PYTHON_BASE": "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/boost/1.78.0-12075919175e8d078539685f9234134a",
+  "LIB": [
+    "boost_python39"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/boost/1.78.0-12075919175e8d078539685f9234134a/lib"
+  ],
+  "TOOLNAME": "boost_python",
+  "TOOLVERSION": "1.78.0-12075919175e8d078539685f9234134a",
+  "USE": [
+    "boost_header",
+    "python3"
+  ],
+  "VARIABLES": [
+    "BOOST_PYTHON_BASE",
+    "LIBDIR"
+  ]
+}

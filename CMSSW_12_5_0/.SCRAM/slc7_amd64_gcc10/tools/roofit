@@ -1,0 +1,13 @@
+{
+  "LIB": [
+    "RooFit"
+  ],
+  "TOOLNAME": "roofit",
+  "TOOLVERSION": "6.24.07-a31cbfc28a0c92b3c007615905b5b9b2",
+  "USE": [
+    "roofitcore",
+    "rootcore",
+    "rootmath",
+    "roothistmatrix"
+  ]
+}

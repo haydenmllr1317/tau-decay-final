@@ -1,0 +1,12 @@
+{
+  "LIB": [
+    "TreePlayer",
+    "Graf3d",
+    "Postscript"
+  ],
+  "TOOLNAME": "rootgraphics",
+  "TOOLVERSION": "6.24.07-a31cbfc28a0c92b3c007615905b5b9b2",
+  "USE": [
+    "rootgpad"
+  ]
+}

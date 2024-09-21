@@ -1,0 +1,6 @@
+<tool name="py3-google-auth-oauthlib" version="0.4.6-8ea6461b68c0e24db1089ffadb8039d3">
+  <client>
+    <environment name="PY3_GOOGLE_AUTH_OAUTHLIB_BASE" default="/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-google-auth-oauthlib/0.4.6-8ea6461b68c0e24db1089ffadb8039d3"/>
+  </client>
+  <runtime name="PATH" value="$PY3_GOOGLE_AUTH_OAUTHLIB_BASE/bin" type="path"/>
+</tool>

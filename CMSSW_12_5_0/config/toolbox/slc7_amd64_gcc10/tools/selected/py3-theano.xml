@@ -1,0 +1,6 @@
+<tool name="py3-theano" version="1.0.5-a4f2c7f7355d73369a2b8120d7502c58">
+  <client>
+    <environment name="PY3_THEANO_BASE" default="/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/py3-Theano/1.0.5-a4f2c7f7355d73369a2b8120d7502c58"/>
+  </client>
+  <runtime name="PATH" value="$PY3_THEANO_BASE/bin" type="path"/>
+</tool>
